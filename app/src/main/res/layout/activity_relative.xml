@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <Button
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="center"/>
+
+    <Button
+        android:id="@+id/left_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="left_top"/>
+
+    <Button
+        android:id="@+id/right_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="right_top"/>
+
+    <Button
+        android:id="@+id/left_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="left_bottom"/>
+
+    <Button
+        android:id="@+id/right_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="right_bottom"/>
+
+    <Button
+        android:id="@+id/left_top_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/center"
+        android:layout_toLeftOf="@id/center"
+        android:text="left_top_one"/>
+
+    <Button
+        android:id="@+id/right_top_one"
+        android:layout_above="@id/center"
+        android:layout_toRightOf="@id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right_top_one"/>
+
+    <Button
+        android:id="@+id/left_bottom_one"
+        android:layout_below="@id/center"
+        android:layout_toLeftOf="@id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left_bottom_one"/>
+
+    <Button
+        android:id="@+id/right_bottom_one"
+        android:layout_below="@id/center"
+        android:layout_toRightOf="@id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right_bottom_one"/>
+
+</RelativeLayout>

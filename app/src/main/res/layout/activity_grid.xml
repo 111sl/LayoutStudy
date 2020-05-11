@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context=".GridActivity">
+
+
+    <Button
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="button1" />
+
+    <Button
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:text="button2" />
+
+
+
+    <Button
+        android:layout_gravity="fill"
+        android:text="button3" />
+
+    <Button
+        android:layout_gravity="fill"
+        android:text="button4" />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="button5" />
+
+
+
+
+
+</GridLayout>
